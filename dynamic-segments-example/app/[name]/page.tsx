@@ -1,6 +1,6 @@
 export default function GiveName({ params, searchParams }: {
-    params: { name: string },
-    searchParams: { id: string },
+    params: { name: string };
+    searchParams: { id: string };
   }) {
     
       return (
@@ -9,3 +9,6 @@ export default function GiveName({ params, searchParams }: {
         </div>
       )
     }
+
+
+    //Expected "{ params: { name: string; }; searchParams: { id: string; }; }", got "PageProps".
