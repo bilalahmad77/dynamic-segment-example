@@ -1,6 +1,6 @@
-export default function GiveName({ params, searchParams }: {
-    params: { name: string };
-    searchParams: { id: string };
+export default function GiveName({ params}: {
+    params: { name: string },
+    //searchParams: { id: string };
   }) {
     
       return (
